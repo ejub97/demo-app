@@ -5,27 +5,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skola Kur'ana Ebu Hanife</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/tw-elements/1.0.0-alpha12/tw-elements.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div id="header"></div>
+    <header class="header">
+        <div class="container"></div>
+        <div class="logo">logo</div>
+        <button type="button" class="menu-btn">
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+            <span class="line line-4"></span>
+        </button>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Pocetna</a></li>
+                <li><a href="#">Programi</a></li>
+                <li><a href="#">Kontakt</a></li>
+                <li><a href="#">O nama</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
 
 
-    <main class="flex-grow">
-        <div id="hero"></div>
-        <div class="container mx-auto mt-6">
-            <div id="card"></div>
-            <!-- <div id="carousel" class="mt-6"></div> -->
+                    <h4>
+                        Programi
+                    </h4>
+                    <ul>
+                        <li><a href="#">Hifz</a></li>
+                        <li><a href="#">Tedzvid</a></li>
+                        <li><a href="#">Arapski jezik</a></li>
+                    </ul>
+
+                </div>
+                <div class="footer-col">
+                    <h4>
+                        Lokacije
+                    </h4>
+                    <ul>
+                        <li><a href="#">Vitez</a></li>
+                        <li><a href="#">Online</a></li>
+                    </ul>
+
+                </div>
+                <div class="footer-col">
+                    <h4>
+                        Skola
+                        Kur ana</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-X"></i></a>
+
+                    </div>
+
+                </div>
+                <div class="footer-col">
+                    <h4>
+                        O nama </h4>
+                    <ul>
+                        <li><a href="#">Kontakt</a></li>
+                        <li><a href="#">Podrska</a></li>
+                        <li><a href="#">Informacije</a></li>
+                    </ul>
+
+                </div>
+
+
+            </div>
+
         </div>
-    </main>
-    <div id="footer"></div>
+    </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tw-elements/1.0.0-alpha12/tw-elements.min.js"></script>
-    <script type="module" src="script.js"></script>
 </body>
 
 </html>
