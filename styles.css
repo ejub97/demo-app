@@ -54,7 +54,9 @@ body {
     font-weight: 600;
     color: hsl(0, 0%, 100%);
     text-transform: capitalize;
+    text-decoration: none;
 }
+
 
 .header .menu-btn {
     display: none;
@@ -99,7 +101,7 @@ body {
     transform: none;
 }
 
-/* Responsive Menu */
+
 @media(max-width: 991px) {
     .header {
         padding: 8px 0;
