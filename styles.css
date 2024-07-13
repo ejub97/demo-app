@@ -101,6 +101,33 @@ body {
     transform: none;
 }
 
+.hero {
+    position: relative;
+    background-image: url('images/Qur\ an\ compressed\ image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero h2 {
+    font-size: 1.5em;
+    margin: 10px 0 0;
+}
+
 
 @media(max-width: 991px) {
     .header {
